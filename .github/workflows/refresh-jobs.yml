@@ -27,3 +27,5 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           QUIET_LOGS: "1"
+          TIME_BUDGET_MIN: "15"
+          DEEP_MAX: "100"
